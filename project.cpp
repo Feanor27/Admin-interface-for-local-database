@@ -4,10 +4,13 @@
 #include<locale.h>
 #include <errno.h>
 #include<time.h>
-//kendime not: Menü üzerinde çalış karakter ekle gibi işlemlerden sonra system cls kullanılabilir ya da başka bir çözüm bulnabilir
-//program visual studio ile yazılmaktadır başka platformlarda kodun çalışması için ufak değişiklikler gerekebilir
-//not:
 //Pokemon oyunu local database yönetici arayüzü
+
+//kendime not: Menü üzerinde çalış karakter ekle gibi işlemlerden sonra system cls kullanılabilir ya da başka bir çözüm bulnabilir
+
+//program visual studio ile yazılmaktadır başka platformlarda kodun çalışması için ufak değişiklikler gerekebilir
+
+//not: kodun çalışabilmesi için deneme.txt yazan yerlere lokal database'in adı yazılmalıdır
 /*Program ana oyunda kullanılan verilerin yönetimi için geliştirilmiştir. Kullanılan veri çeşitliliği ve sayısı normalden fazla olduğu için ve yönetimi
 * göreceli daha kolay olduğu için tek yönlü linked list kullanmayı uygun gördüm. Programın ana çalışma mantığı şudur:
 * Eğer databasede herhangi bir veri yoksa bir root oluşturuyorum gerekli verileri alıyorum
